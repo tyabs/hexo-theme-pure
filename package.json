@@ -2,7 +2,12 @@
   "name": "hexo-theme-pure",
   "version": "0.0.1",
   "private": true,
-  "devDependencies": {
-
+  "devDependencies": {},
+  "dependencies": {
+    "hexo-generator-baidu-sitemap": "^0.1.2",
+    "hexo-generator-feed": "^1.2.2",
+    "hexo-generator-json-content": "^3.0.1",
+    "hexo-generator-sitemap": "^1.2.0",
+    "hexo-wordcount": "^3.0.2"
   }
 }
