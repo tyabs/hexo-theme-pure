@@ -61,7 +61,7 @@ widgets:
   - tag
   #- tagcloud
   - archive
-  - recent_posts
+  # - recent_posts
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -185,34 +185,35 @@ profile:
       #rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills 
-  # skills:
-  #   Git: ★★★☆☆
-  #   Gulp: ★★★☆☆
-  #   Javascript: ★★★☆☆
-  #   HTML+CSS: ★★★☆☆
-  #   Bootstrap: ★★★☆☆
-  #   ThinkPHP: ★★★☆☆
-  #   平面设计: ★★★☆☆
+  skills:
+    Git: ★★★☆☆
+    C/C++: ★★★☆☆
+    Python: ★★★☆☆
+    Machine Learning: ★★★☆☆
+    Ads Algorithms: ★★★☆☆
+    # ThinkPHP: ★★★☆☆
+    # 平面设计: ★★★☆☆
   # My Personal Links
-  # links:
-  #   Github: https://github.com/tyabs
-  #   Blog: http://blog.cofess.com
-  #   微博: http://weibo.com/cofess
-  #   花瓣: http://huaban.com/cofess
-  #   Behance: https://www.behance.net/cofess
+  links:
+    Github: https://github.com/tyabs
+    Blog: https://tyabs.github.io
+    微博: http://weibo.com/futureyouneverknow
+    # 花瓣: http://huaban.com/cofess
+    # Behance: https://www.behance.net/cofess
   # My Personal Labels
-  # labels:
-  #   - 前端
-  #   - 前端开发
-  #   - 前端重构
-  #   - Web前端
-  #   - 网页重构
+  labels:
+    - C/C++
+    - Python
+    - Machine Learning
+    - Ads Algorithms
+    # - 网页重构
   # My Personal Works
-  # works:
-  #   name:
-  #     link: http://www.example.com
-  #     date: 2016
+  works:
+    TBD:
+      link: http://www.example.com
+      date: 2016
   # My Personal Projects
-  #projects:
-  #  cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
-  #  cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
+  projects:
+   TBD
+    #cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
+   #cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
